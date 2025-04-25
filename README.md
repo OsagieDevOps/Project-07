@@ -148,7 +148,7 @@ sudo fail2ban-client status sshd
 
 * Test UFW Rules: You can attempt to access the server through ports that are not allowed by UFW to confirm that they are blocked. For instance, trying to connect to a non-allowed port should result in a timeout.
 
-diagram
+
 
 Test Fail2Ban: To test Fail2Ban, you can attempt to SSH into your server with incorrect passwords multiple times (use a different machine or IP to avoid locking yourself out). After hitting the max retries, Fail2Ban should ban your IP.
 
